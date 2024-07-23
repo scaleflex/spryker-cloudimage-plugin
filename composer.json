@@ -1,5 +1,5 @@
 {
-    "name": "evl/cloudimage",
+    "name": "scaleflex/spryker-cloudimage",
     "description": "Spryker package to integrate Cloudimage",
     "type": "library",
     "license": "MIT",
