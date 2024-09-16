@@ -1,8 +1,8 @@
 <?php
 
-namespace Evl\Service\Cloudimage;
+namespace Scaleflex\Service\Cloudimage;
 
-use Evl\Shared\Cloudimage\CloudimageConstants;
+use Scaleflex\Shared\Cloudimage\CloudimageConstants;
 use Spryker\Service\Kernel\AbstractBundleConfig;
 
 class CloudimageConfig extends AbstractBundleConfig

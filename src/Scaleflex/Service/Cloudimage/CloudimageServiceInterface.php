@@ -1,6 +1,6 @@
 <?php
 
-namespace Evl\Service\Cloudimage;
+namespace Scaleflex\Service\Cloudimage;
 
 interface CloudimageServiceInterface
 {

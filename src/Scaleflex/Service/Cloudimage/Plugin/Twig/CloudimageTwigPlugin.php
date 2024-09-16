@@ -1,6 +1,6 @@
 <?php
 
-namespace Evl\Service\Cloudimage\Plugin\Twig;
+namespace Scaleflex\Service\Cloudimage\Plugin\Twig;
 
 use Spryker\Service\Kernel\AbstractPlugin;
 use Spryker\Shared\TwigExtension\Dependency\Plugin\TwigPluginInterface;

@@ -3,20 +3,20 @@
 ### Installation
 Start up the Spryker shop and run:
 ~~~
-composer require evl/cloudimage
+composer require scaleflex/spryker-cloudimage
 ~~~
 
 ### Configuration in the shop
-To get the package running, register the "Evl" namespace into the config_default.php in the KernelConstants::CORE_NAMESPACES
+To get the package running, register the "Scaleflex" namespace into the config_default.php in the KernelConstants::CORE_NAMESPACES
 ~~~
 $config[KernelConstants::CORE_NAMESPACES] = [
-    'Evl',
+    'Scaleflex',
     ...
 ];
 ~~~
 Set these constants in the config, where it is needed. the BaseUrl and the ignoredUrlPaths need to be set according to the use case.
 ~~~
-use Evl\Shared\Cloudimage\CloudimageConstants;
+use Scaleflex\Shared\Cloudimage\CloudimageConstants;
 
 $config[CloudimageConstants::TOKEN] = '{{YOUR_TOKEN}}';
 $config[CloudimageConstants::BASE_URL] = 'http://yves.de.spryker.local';

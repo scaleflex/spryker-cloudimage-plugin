@@ -3,20 +3,22 @@
     "description": "Spryker package to integrate Cloudimage",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "spryker",
+        "php",
+        "cdn",
+        "scaleflex",
+        "cloudimage"
+    ],
     "autoload": {
         "psr-4": {
-            "Evl\\": "src/Evl/"
+            "Scaleflex\\": "src/Scaleflex/"
         }
     },
     "authors": [
         {
-            "name": "Ellen Wenzel"
-        },
-        {
-            "name": "Linas Linartas"
-        },
-        {
-            "name": "Vincent Christophe"
+            "name": "Scaleflex",
+            "email": "plugins@scaleflex.com"
         }
     ],
     "minimum-stability": "dev",

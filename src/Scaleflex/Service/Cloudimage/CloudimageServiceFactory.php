@@ -1,18 +1,18 @@
 <?php
 
-namespace Evl\Service\Cloudimage;
+namespace Scaleflex\Service\Cloudimage;
 
-use Evl\Service\Cloudimage\Converter\CloudimageUrlConverter;
-use Evl\Service\Cloudimage\Converter\CloudimageUrlConverterInterface;
+use Scaleflex\Service\Cloudimage\Converter\CloudimageUrlConverter;
+use Scaleflex\Service\Cloudimage\Converter\CloudimageUrlConverterInterface;
 use Spryker\Service\Kernel\AbstractServiceFactory;
 
 /**
- * @method \Evl\Service\Cloudimage\CloudimageConfig getConfig()
+ * @method \Scaleflex\Service\Cloudimage\CloudimageConfig getConfig()
  */
 class CloudimageServiceFactory extends AbstractServiceFactory
 {
     /**
-     * @return \Evl\Service\Cloudimage\Converter\CloudimageUrlConverterInterface
+     * @return \Scaleflex\Service\Cloudimage\Converter\CloudimageUrlConverterInterface
      */
     public function createCloudimageUrlConverter(): CloudimageUrlConverterInterface
     {

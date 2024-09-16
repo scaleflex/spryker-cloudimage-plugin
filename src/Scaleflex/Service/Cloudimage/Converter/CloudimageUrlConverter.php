@@ -1,6 +1,6 @@
 <?php
 
-namespace Evl\Service\Cloudimage\Converter;
+namespace Scaleflex\Service\Cloudimage\Converter;
 
 class CloudimageUrlConverter implements CloudimageUrlConverterInterface
 {

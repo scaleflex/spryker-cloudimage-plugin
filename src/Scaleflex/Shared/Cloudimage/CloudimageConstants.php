@@ -1,6 +1,6 @@
 <?php
 
-namespace Evl\Shared\Cloudimage;
+namespace Scaleflex\Shared\Cloudimage;
 
 interface CloudimageConstants
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Evl\Service\Cloudimage;
+namespace Scaleflex\Service\Cloudimage;
 
 use Spryker\Service\Kernel\AbstractService;
 
 /**
- * @method \Evl\Service\Cloudimage\CloudimageServiceFactory getFactory()
+ * @method \Scaleflex\Service\Cloudimage\CloudimageServiceFactory getFactory()
  */
 class CloudimageService extends AbstractService implements CloudimageServiceInterface
 {
