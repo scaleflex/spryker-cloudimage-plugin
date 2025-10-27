@@ -53,7 +53,7 @@ Everywhere this molecule will use Cloudimage and apply a grey filter.
 cloudimage({YOUR_OPERATIONS}, {YOUR_FILTERS})
 ~~~
 Cloudimage documentation for the operations:
-https://docs.cloudimage.io/go/cloudimage-documentation-v7/en/image-resizing
+https://docs.cloudimage.io/transformations/image-operations
 
 Cloudimage documentation for the filters:
-https://docs.cloudimage.io/go/cloudimage-documentation-v7/en/image-filters
+https://docs.cloudimage.io/transformations/image-filters
